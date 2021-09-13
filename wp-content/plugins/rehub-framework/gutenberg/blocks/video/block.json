@@ -1,0 +1,10 @@
+{
+	"apiVersion": 2,
+	"name": "rehub/video",
+	"title": "Video block",
+	"category": "helpler-modules",
+	"description": "Embed a video from your media library or upload a new one",
+	"textdomain": "rehub-framework",
+	"style": "rhpb-video",
+	"editorStyle": "rh-gutenberg-admin"
+}

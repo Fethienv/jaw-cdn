@@ -1,0 +1,2 @@
+<?php defined('\ABSPATH') || exit; ?>
+<input type="text" class="input-sm col-md-4" ng-model="query_params.<?php echo $module_id; ?>.storeId" ng-init="query_params.<?php echo $module_id; ?>.storeId = ''" placeholder="<?php _e('Custom Store ID', 'content-egg'); ?>" />

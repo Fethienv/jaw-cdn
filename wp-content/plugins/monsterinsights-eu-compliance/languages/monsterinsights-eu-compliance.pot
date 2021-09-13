@@ -1,0 +1,147 @@
+# Copyright (C) 2018 MonsterInsights
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MonsterInsights EU Compliance Addon\n"
+"Report-Msgid-Bugs-To: https://github.com/awesomemotive/monsterinsights/issues\n"
+"POT-Creation-Date: 2018-05-18 13:09-0400\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: MonsterInsights Team <support@monsterinsights.com>\n"
+"Language-Team: MonsterInsights Team <support@monsterinsights.com>\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/filters.php:17
+msgid "EU Compliance Overview:"
+msgstr ""
+
+#: includes/filters.php:20
+msgid "MonsterInsights's EU Compliance addon can help you comply with the latest EU regulations like GDPR by automatically performing configuration changes and integrating with compatible plugins and services."
+msgstr ""
+
+#: includes/filters.php:26
+msgid "Anonymize IP addresses for Google Analytics hits:"
+msgstr ""
+
+#: includes/filters.php:31
+msgid "The EU Compliance Addon is automatically anonymizing all IP addresses for Google Analytics hits, eCommerce hits, and form tracking hits."
+msgstr ""
+
+#: includes/filters.php:35
+msgid "Disable Demographics and Interests Reports for Remarketing and Advertising:"
+msgstr ""
+
+#: includes/filters.php:40
+#, php-format
+msgid "The EU Compliance Addon has automatically disabled Demographics and Interests Reports for Remarketing and Advertising tracking on Google Analytics hits. You will want to make sure you have also %1$sdisabled data sharing in your Google Analytics account%2$s."
+msgstr ""
+
+#: includes/filters.php:44
+msgid "Disable UserID tracking:"
+msgstr ""
+
+#: includes/filters.php:49
+msgid "The EU Compliance Addon has automatically disabled UserID tracking on Google Analytics hits, eCommerce hits, form tracking hits, and the UserID dimension in the Custom Dimensions addon."
+msgstr ""
+
+#: includes/filters.php:53
+msgid "Disable Author tracking:"
+msgstr ""
+
+#: includes/filters.php:58
+msgid "The EU Compliance Addon has automatically disabled the author dimension in the Custom Dimensions addon."
+msgstr ""
+
+#: includes/filters.php:63
+msgid "Enable ga() Compatibility Mode:"
+msgstr ""
+
+#: includes/filters.php:68
+msgid "The EU Compliance Addon has automatically enabled the ga() compatibility feature so plugins integrating for cookie consent can use GA to store consent as a GA event."
+msgstr ""
+
+#: includes/filters.php:73
+msgid "Wait for AMP consent box?"
+msgstr ""
+
+#: includes/filters.php:74
+msgid "If you have implemented an AMP Consent Box, enabling this option will tell MonsterInsights to not track on AMP pages until consent is given via that box (or if you have the fallback configured to true, on fallback as well). Important: If you do not have an AMP Consent Box implemented (requires custom code), enabling this option will prevent MonsterInsights from tracking all AMP users."
+msgstr ""
+
+#: includes/filters.php:82 includes/filters.php:92 includes/filters.php:102
+#: includes/filters.php:111
+msgid "Integrate with the CookieBot or Cookie Notice plugin:"
+msgstr ""
+
+#: includes/filters.php:87
+msgid "The EU Compliance Addon has detected you have the CookieBot plugin installed and active, and has automatically performed all required tasks to make our tracking code compatible with it for you. No code changes are required to the MonsterInsights plugin code. Note: having MonsterInsights wait till consent is given to load Google Analytics might alter your Google Analytics data completeness and accuracy."
+msgstr ""
+
+#: includes/filters.php:97
+msgid "The EU Compliance Addon has detected you have the CookieBot plugin installed but you have not activated it in their settings panel. Once you activate it, the EU Compliance addon will automatically perform all required tasks to make our tracking code compatible with it for you. No code changes are required to the MonsterInsights plugin code. Note: having MonsterInsights wait till consent is given to load Google Analytics might alter your Google Analytics data completeness and accuracy."
+msgstr ""
+
+#: includes/filters.php:103
+msgid "The EU Compliance Addon has detected you have the Cookie Notice plugin by dFactory plugin installed and active, and has automatically performed all required tasks to make our tracking code compatible with it for you. No code changes are required to the MonsterInsights plugin code. Note: having MonsterInsights wait till consent is given to load Google Analytics might alter your Google Analytics data completeness and accuracy"
+msgstr ""
+
+#: includes/filters.php:116
+#, php-format
+msgid "The EU Compliance Addon allows for integration with either the %1$sCookieBot plugin%2$s or the %3$sCookie Notice plugin%2$s to have MonsterInsights wait to track a user into Google Analytics until consent is given. If you install either %1$sCookieBot%2$s or %3$sCookie Notice by dFactory%2$s, and activate it, the  EU Compliance addon will automatically perform all required tasks to make our tracking code compatible with it for you. No code changes are required to the MonsterInsights plugin code. Note: having MonsterInsights wait until consent is given to load Google Analytics might alter your Google Analytics data completeness and accuracy."
+msgstr ""
+
+#: includes/filters.php:123
+msgid "Manual Google Analytics Account Changes Required:"
+msgstr ""
+
+#: includes/filters.php:126
+#, php-format
+msgid "This addon automates a lot of the needed changes for EU compliance, however it cannot alter your Google Analytics account, and some configuration changes might be needed. For the latest recommendations, we recommend reading the EU Compliance addon %1$sGetting Started Guide%2$s for step by step directions on any needed configuration changes."
+msgstr ""
+
+#: includes/filters.php:130
+msgid "Legal Disclaimer:"
+msgstr ""
+
+#: includes/filters.php:133
+#, php-format
+msgid "%1$sThis addon is designed to automate some of the settings change required to be in compliance with various EU laws however due to the dynamic nature of websites, no plugin can offer 100 percent legal compliance. Please consult a specialist internet law attorney to determine if you are in compliance with all applicable laws for your jurisdictions and your use cases.%2$s%1$sAs a website operator, it is solely your responsibility to ensure that you are in compliance with all applicable laws and regulations governing your use of our plugin.%2$s%1$sMonsterInsights, it’s employees/contractors, and other affiliated parties are not lawyers. Any advice given in our support, documentation, website, other mediums or through our services/products should not be considered legal advice and is for informational and/or educational purposes only and are not guaranteed to be correct, complete or up-to-date, and do not constitute creating/entering an Attorney-Client relationship.%2$s"
+msgstr ""
+
+#: includes/filters.php:139
+msgid "Because you have the EU Compliance addon installed, MonsterInsights is automatically anonymizing the last octet of all IP addresses"
+msgstr ""
+
+#: includes/filters.php:144
+msgid "Because you have the EU Compliance addon installed, MonsterInsights has disabled the userID tracking feature."
+msgstr ""
+
+#: includes/filters.php:149
+#, php-format
+msgid "Because you have the EU Compliance addon installed, MonsterInsights has disabled the demographics and interest reports for remarketing and advertising tracking feature. You will want to make sure you have also %1$sdisabled data sharing in your Google Analytics account%2$s."
+msgstr ""
+
+#: includes/filters.php:154
+msgid "Because you have the EU Compliance addon installed, MonsterInsights has automatically enabled the ga() compatibility feature."
+msgstr ""
+
+#: includes/filters.php:304
+msgid "Note: You have not accepted the Cookie Notice."
+msgstr ""
+
+#: monsterinsights-eu-compliance.php:157
+msgid "Please install MonsterInsights Pro to use the MonsterInsights EU Compliance addon"
+msgstr ""
+
+#: monsterinsights-eu-compliance.php:173
+msgid "Please install or update MonsterInsights Pro version 7.0.15 or newer to use the MonsterInsights EU Compliance addon"
+msgstr ""

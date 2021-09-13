@@ -1,0 +1,185 @@
+{
+	"apiVersion": 2,
+	"name": "rehub/video",
+	"title": "Video block",
+	"category": "media",
+	"description": "Embed a video from your media library or upload a new one.",
+	"attributes": {
+		"blockId": {
+			"type": "string"
+		},
+		"id": {
+			"type": "number"
+		},
+		"src": {
+			"type": "string",
+			"default": ""
+		},
+		"provider": {
+			"type": "string",
+			"default": ""
+		},
+		"startTime": {
+			"type": "number"
+		},
+		"endTime": {
+			"type": "number"
+		},
+		"autoplay": {
+			"type": "boolean",
+			"default": false
+		},
+		"playsInline": {
+			"type": "boolean",
+			"default": false
+		},
+		"loop": {
+			"type": "boolean",
+			"default": false
+		},
+		"muted": {
+			"type": "boolean",
+			"default": false
+		},
+		"controls": {
+			"type": "boolean",
+			"default": true
+		},
+		"poster": {
+			"type": "string",
+			"default": ""
+		},
+		"isOverlay": {
+			"type": "boolean",
+			"default": false
+		},
+		"overlayImage": {
+			"type": "string",
+			"default": ""
+		},
+		"overlayOpacity": {
+			"type": "number",
+			"default": 0.5
+		},
+		"overlayIcon": {
+			"type": "boolean",
+			"default": false
+		},
+		"overlayLightbox": {
+			"type": "boolean",
+			"default": false
+		},
+		"previewable": {
+			"type": "boolean",
+			"default": true
+		},
+		"modestBranding": {
+			"type": "boolean",
+			"default": false
+		},
+		"privacyMode": {
+			"type": "boolean",
+			"default": false
+		},
+		"suggested": {
+			"type": "boolean",
+			"default": true
+		},
+		"introTitle": {
+			"type": "boolean",
+			"default": true
+		},
+		"introPortrait": {
+			"type": "boolean",
+			"default": true
+		},
+		"introByline": {
+			"type": "boolean",
+			"default": true
+		},
+		"isSchema": {
+			"type": "boolean",
+			"default": false
+		},
+		"schemaTitle": {
+			"type": "string",
+			"default": ""
+		},
+		"schemaDescription": {
+			"type": "string",
+			"default": ""
+		},
+		"postDate": {
+			"type": "string",
+			"default": ""
+		},
+		"width": {
+			"type": "object",
+			"default": {
+				"desktop": {
+					"size": "",
+					"unit": "px"
+				},
+				"landscape": {
+					"size": "",
+					"unit": "px"
+				},
+				"tablet": {
+					"size": "",
+					"unit": "px"
+				},
+				"mobile": {
+					"size": "",
+					"unit": "px"
+				}
+			}
+		},
+		"height": {
+			"type": "object",
+			"default": {
+				"desktop": {
+					"size": "",
+					"unit": "px"
+				},
+				"landscape": {
+					"size": "",
+					"unit": "px"
+				},
+				"tablet": {
+					"size": "",
+					"unit": "px"
+				},
+				"mobile": {
+					"size": "",
+					"unit": "px"
+				}
+			}
+		},
+		"overlayColor": {
+			"type": "string"
+		},
+		"playiconBg": {
+			"type": "string",
+			"default": "#cc0000"
+		},
+		"customOverlayColor": {
+			"type": "string"
+		},
+		"gradient": {
+			"type": "string"
+		},
+		"customGradient": {
+			"type": "string"
+		},
+		"dimRatio": {
+			"type": "number",
+			"default": 50
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"align": true
+	},
+	"textdomain": "rehub-framework",
+	"editorStyle": "file:./assets/css/editor.css"
+}

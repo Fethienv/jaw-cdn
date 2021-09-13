@@ -1,0 +1,2 @@
+<input type="text" class="input-sm col-md-4" ng-model="query_params.<?php echo $module_id; ?>.minPrice" ng-init="query_params.<?php echo $module_id; ?>.minPrice = ''" placeholder="<?php _e('Min. price', 'content-egg'); ?>" />
+<input type="text" class="input-sm col-md-4" ng-model="query_params.<?php echo $module_id; ?>.maxPrice" ng-init="query_params.<?php echo $module_id; ?>.maxPrice = ''" placeholder="<?php _e('Max. price', 'content-egg'); ?>" />
